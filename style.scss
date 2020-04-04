@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse; 
+}
+
+table td, th{ 
+    padding:7px; 
+    border:#ffffff 1px solid;
+}
+
+table td *, th *{ 
+    max-width: 100%;
+}
+
+table tr:nth-child(odd){ 
+    background: #b8d1f3;
+}
+
+table tr:nth-child(even){
+    background: #dae5f4;
+}
